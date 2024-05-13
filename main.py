@@ -6,7 +6,7 @@ import replicate
 st.markdown("# :rainbow[AI txt to img Generator]")
 
 #REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
-REPLICATE_API_TOKEN = "r8_6OSfeXLpGezt0PFDC7BlcBmKaG9xh701CWoOs"
+REPLICATE_API_TOKEN = "r8_QvXpwLkKqejveLxprc28h1IL0ZZQ6zL4DNqYI"
 
 def configure_sidebar():
     with st.sidebar:
