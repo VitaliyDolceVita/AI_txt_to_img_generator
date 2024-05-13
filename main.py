@@ -14,7 +14,7 @@ def configure_sidebar():
             width = st.number_input("Width of image", min_value=256, max_value=2048, value=1024, step=16)
             height = st.number_input("Height of image", min_value=256, max_value=2048, value=1024, step=16)
             prompt = st.text_area("Prompt")
-            submitted = st.form_submit_button("Submit", type="primary")
+            submitted = st.form_submit_button("Generate", type="primary")
 
         return{
            "width" : width,
